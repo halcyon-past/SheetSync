@@ -1,7 +1,7 @@
 {
   "name": "aritros-sheet-sync",
   "version": "1.0.0",
-  "description": "A realtime sheets sync with database",
+  "description": "A realtime google sheets sync with mysql database",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

@@ -13,5 +13,4 @@ const getClient = async () => {
 };
 
 const googleSheets = google.sheets({ version: "v4" });
-
 module.exports = { googleSheets, getClient };
