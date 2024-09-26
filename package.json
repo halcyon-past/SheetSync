@@ -1,0 +1,28 @@
+{
+  "name": "aritros-sheet-sync",
+  "version": "1.0.0",
+  "description": "A realtime sheets sync with database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StackItHQ/vit-halcyon-past.git"
+  },
+  "keywords": [
+    "google-sheets"
+  ],
+  "author": "Aritro Saha 21BLC1174",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StackItHQ/vit-halcyon-past/issues"
+  },
+  "homepage": "https://github.com/StackItHQ/vit-halcyon-past#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "googleapis": "^144.0.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}
