@@ -215,7 +215,11 @@ SHEET_ID=<your-google-sheet-id>
 - **Scalability**: Implement more scalable synchronization techniques for larger datasets or higher change frequency.
   - Using Timestamps to Monitor Changes and Implementation of Batch System to Upload data by accumulating some changes together first instead of one by one updation can increase the scalability.
 - **Logging and Monitoring**: Implement more detailed logging and error monitoring to track synchronization failures.
-  Maintaince of Logs and Live Monitoring can help in actively tracking synchronization failures or database errors.
+  - Maintaince of Logs and Live Monitoring can help in actively tracking synchronization failures or database errors.
+
+## Problems I Faced 
+
+- I tried to create a time stamp based approach where time will be monitored and stored from the sheets and that will be used to check when the row was last modified to compare and update only the cells which have been updated since the last modification but I couldn't really find a solution to that because I couldn't realise how to monitor the time and thus relied on updating the database on every change in the sheets.
 
 
 
