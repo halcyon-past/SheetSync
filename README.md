@@ -46,7 +46,7 @@ Once you're done, make sure you **record a video** showing your project working.
 We have a checklist at the bottom of this README file, which you should update as your progress with your assignment. It will help us evaluate your project.
 
 - [X] My code's working just fine! 🥳
-- [ ] I have recorded a video showing it working and embedded it in the README ▶️
+- [X] I have recorded a video showing it working and embedded it in the README ▶️
 - [X] I have tested all the normal working cases 😎
 - [X] I have even solved some edge cases (brownie points) 💪
 - [X] I added my very planned-out approach to the problem at the end of this README 📜
@@ -64,7 +64,7 @@ The project is made by:
 - Aritro Saha 21BLC1174
 
 ## Working Video
-[![Thumbnail](./assets/placeholder.jpeg)](https://youtu.be/dummylink "Click to Play Video Demonstration")
+[![Thumbnail](./assets/placeholder.jpeg)](https://www.youtube.com/watch?v=oAA0IglYapM "Click to Play Video Demonstration")
 
 ## Project Overview
 This project is designed to synchronize data between a Google Sheets spreadsheet and a MySQL database ```(dynamic_table)``` in real time. The application monitors changes in both Google Sheets and the MySQL database and keeps them in sync. It supports Create, Read, Update, and Delete (CRUD) operations, ensuring that any changes in one data source reflect in the other.
